@@ -15,6 +15,7 @@ export const GlobalReset = createGlobalStyle`
     min-height: 100vh;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    background-color: #000;
   }
   
   body,
