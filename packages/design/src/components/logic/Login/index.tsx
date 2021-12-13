@@ -94,7 +94,6 @@ export function Login({ config, pathAfterLogin, appName, appLogo, ...restProps }
   ) : (
     <PageLayout {...restProps}>
       <MainStack>
-        <img src={appLogo} alt="CosmWasm logo" />
         <WelcomeStack>
           <Typography>
             <Title level={2}>Hello!</Title>

@@ -32,19 +32,18 @@ const uninet: AppConfig = {
 };
 
 const pebblenet: AppConfig = {
-  chainId: "pebblenet-1",
-  chainName: "Pebblenet",
-  addressPrefix: "wasm",
-  rpcUrl: "https://rpc.pebblenet.cosmwasm.com",
-  httpUrl: "https://lcd.pebblenet.cosmwasm.com",
-  faucetUrl: "https://faucet.pebblenet.cosmwasm.com",
-  feeToken: "upebble",
-  stakingToken: "urock",
+  chainId: "space-pussy-1",
+  chainName: "Space Pussy",
+  addressPrefix: "bostrom",
+  rpcUrl: "https://rpc.space-pussy-1.cybernode.ai",
+  httpUrl: "https://lcd.space-pussy-1.cybernode.ai",
+  faucetUrl: "http://faucet.space-pussy-1.cybernode.ai",
+  feeToken: "boot",
+  stakingToken: "boot",
   coinMap: {
-    urock: { denom: "ROCK", fractionalDigits: 6 },
-    upebble: { denom: "PEBBLE", fractionalDigits: 6 },
+    boot: { denom: "BOOT", fractionalDigits: 0 },
   },
-  gasPrice: 0.025,
+  gasPrice: 0.01,
 };
 
 const configs: NetworkConfigs = { local, uninet, pebblenet };

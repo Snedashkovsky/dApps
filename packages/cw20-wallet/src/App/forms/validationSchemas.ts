@@ -5,7 +5,7 @@ const regexStartsWithPrefix = new RegExp(`^${config.addressPrefix}`);
 
 export const addressField = Yup.string()
   .matches(regexStartsWithPrefix, `"${config.addressPrefix}" prefix required`)
-  .length(39 + config.addressPrefix.length, "Address invalid");
+  .length(59 + config.addressPrefix.length, "Address invalid");
 export const requiredAddressField = addressField.required("An address is required");
 export const amountField = Yup.number()
   .required("An amount is required")

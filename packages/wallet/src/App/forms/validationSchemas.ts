@@ -7,7 +7,7 @@ const addressShape = {
   address: Yup.string()
     .required("An address is required")
     .matches(regexStartsWithPrefix, `"${config.addressPrefix}" prefix required`)
-    .length(39 + config.addressPrefix.length, "Address invalid"),
+    .length(59 + config.addressPrefix.length, "Address invalid"),
 };
 
 export const searchValidationSchema = Yup.object().shape(addressShape);
