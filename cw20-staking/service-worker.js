@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cw20-staking/precache-manifest.b70b9405ad5429fa863a12299dd5464c.js"
+  "/cw20-staking/precache-manifest.95c5e72871104fe9663a9b1f50c7b7f7.js"
 );
 
 self.addEventListener('message', (event) => {

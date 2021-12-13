@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cw20-staking/static/css/main.05f3865a.chunk.css",
-    "main.js": "/cw20-staking/static/js/main.8f844054.chunk.js",
-    "main.js.map": "/cw20-staking/static/js/main.8f844054.chunk.js.map",
+    "main.css": "/cw20-staking/static/css/main.cdf2423f.chunk.css",
+    "main.js": "/cw20-staking/static/js/main.ca84365a.chunk.js",
+    "main.js.map": "/cw20-staking/static/js/main.ca84365a.chunk.js.map",
     "runtime-main.js": "/cw20-staking/static/js/runtime-main.2f5c8a14.js",
     "runtime-main.js.map": "/cw20-staking/static/js/runtime-main.2f5c8a14.js.map",
-    "static/css/2.c02c243b.chunk.css": "/cw20-staking/static/css/2.c02c243b.chunk.css",
-    "static/js/2.199a80f8.chunk.js": "/cw20-staking/static/js/2.199a80f8.chunk.js",
-    "static/js/2.199a80f8.chunk.js.map": "/cw20-staking/static/js/2.199a80f8.chunk.js.map",
+    "static/css/2.c7c8889c.chunk.css": "/cw20-staking/static/css/2.c7c8889c.chunk.css",
+    "static/js/2.18ceec87.chunk.js": "/cw20-staking/static/js/2.18ceec87.chunk.js",
+    "static/js/2.18ceec87.chunk.js.map": "/cw20-staking/static/js/2.18ceec87.chunk.js.map",
     "index.html": "/cw20-staking/index.html",
-    "precache-manifest.b70b9405ad5429fa863a12299dd5464c.js": "/cw20-staking/precache-manifest.b70b9405ad5429fa863a12299dd5464c.js",
+    "precache-manifest.95c5e72871104fe9663a9b1f50c7b7f7.js": "/cw20-staking/precache-manifest.95c5e72871104fe9663a9b1f50c7b7f7.js",
     "service-worker.js": "/cw20-staking/service-worker.js",
-    "static/css/2.c02c243b.chunk.css.map": "/cw20-staking/static/css/2.c02c243b.chunk.css.map",
-    "static/css/main.05f3865a.chunk.css.map": "/cw20-staking/static/css/main.05f3865a.chunk.css.map",
-    "static/js/2.199a80f8.chunk.js.LICENSE.txt": "/cw20-staking/static/js/2.199a80f8.chunk.js.LICENSE.txt",
+    "static/css/2.c7c8889c.chunk.css.map": "/cw20-staking/static/css/2.c7c8889c.chunk.css.map",
+    "static/css/main.cdf2423f.chunk.css.map": "/cw20-staking/static/css/main.cdf2423f.chunk.css.map",
+    "static/js/2.18ceec87.chunk.js.LICENSE.txt": "/cw20-staking/static/js/2.18ceec87.chunk.js.LICENSE.txt",
     "static/media/avatar.svg": "/cw20-staking/static/media/avatar.e6ceb267.svg",
     "static/media/backArrow.svg": "/cw20-staking/static/media/backArrow.9849fc2e.svg",
     "static/media/confirmIcon.svg": "/cw20-staking/static/media/confirmIcon.5ecaf28a.svg",
@@ -26,9 +26,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f5c8a14.js",
-    "static/css/2.c02c243b.chunk.css",
-    "static/js/2.199a80f8.chunk.js",
-    "static/css/main.05f3865a.chunk.css",
-    "static/js/main.8f844054.chunk.js"
+    "static/css/2.c7c8889c.chunk.css",
+    "static/js/2.18ceec87.chunk.js",
+    "static/css/main.cdf2423f.chunk.css",
+    "static/js/main.ca84365a.chunk.js"
   ]
 }
