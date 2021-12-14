@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalFonts = createGlobalStyle`
   :root {
-    --ff-montserrat: Montserrat, sans-serif;
-    --ff-iceland: Iceland, serif;
+    --ff-montserrat: Play, sans-serif;
+    --ff-iceland: Play, serif;
 
     --ff-text: var(--ff-montserrat);
     --ff-heading: var(--ff-iceland);

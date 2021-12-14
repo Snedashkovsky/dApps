@@ -31,7 +31,7 @@ const uninet: AppConfig = {
   gasPrice: 0.025,
 };
 
-const pebblenet: AppConfig = {
+const spacepussy: AppConfig = {
   chainId: "space-pussy-1",
   chainName: "Space Pussy",
   addressPrefix: "bostrom",
@@ -46,5 +46,5 @@ const pebblenet: AppConfig = {
   gasPrice: 0.01,
 };
 
-const configs: NetworkConfigs = { local, uninet, pebblenet };
+const configs: NetworkConfigs = { local, uninet, spacepussy };
 export const config = getAppConfig(configs);

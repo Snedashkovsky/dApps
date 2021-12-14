@@ -13,9 +13,9 @@
     "start:base": "craco start",
     "start:local": "REACT_APP_NETWORK=local yarn start:base",
     "start:uninet": "REACT_APP_NETWORK=uninet yarn start:base",
-    "start:pebblenet": "REACT_APP_NETWORK=pebblenet yarn start:base",
-    "start": "yarn start:pebblenet",
-    "build": "REACT_APP_NETWORK=pebblenet craco build",
+    "start:spacepussy": "REACT_APP_NETWORK=spacepussy yarn start:base",
+    "start": "yarn start:spacepussy",
+    "build": "REACT_APP_NETWORK=spacepussy craco build",
     "test": "craco test"
   },
   "dependencies": {
