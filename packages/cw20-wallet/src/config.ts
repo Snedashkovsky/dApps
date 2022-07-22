@@ -31,7 +31,7 @@ const uninet: AppConfig = {
   gasPrice: 0.025,
 };
 
-const spacepussy: AppConfig = {
+const spacepussy1: AppConfig = {
   chainId: "space-pussy-1",
   chainName: "Space Pussy",
   addressPrefix: "bostrom",
@@ -46,5 +46,20 @@ const spacepussy: AppConfig = {
   gasPrice: 0.01,
 };
 
-const configs: NetworkConfigs = { local, uninet, spacepussy };
+const bostrom: AppConfig = {
+  chainId: "bostrom",
+  chainName: "Bostrom",
+  addressPrefix: "bostrom",
+  rpcUrl: "https://rpc.bostrom.cybernode.ai",
+  httpUrl: "https://lcd.bostrom.cybernode.ai",
+  faucetUrl: "http://faucet.bostrom.cybernode.ai",
+  feeToken: "boot",
+  stakingToken: "boot",
+  coinMap: {
+    boot: { denom: "BOOT", fractionalDigits: 0 },
+  },
+  gasPrice: 0.01,
+};
+
+const configs: NetworkConfigs = { local, uninet, spacepussy1, bostrom };
 export const config = getAppConfig(configs);

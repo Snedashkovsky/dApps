@@ -1,9 +1,9 @@
 {
-  "name": "cw20-wallet",
+  "name": "cw20-bostrom-wallet",
   "version": "0.4.0",
   "license": "Apache-2.0",
   "private": true,
-  "homepage": "https://dapps.cosmwasm.com/cw20-wallet",
+  "homepage": "https://cyb.ai",
   "browserslist": [
     "last 2 chrome versions",
     "last 2 firefox versions",
@@ -13,9 +13,10 @@
     "start:base": "craco start",
     "start:local": "REACT_APP_NETWORK=local yarn start:base",
     "start:uninet": "REACT_APP_NETWORK=uninet yarn start:base",
-    "start:spacepussy": "REACT_APP_NETWORK=spacepussy yarn start:base",
-    "start": "yarn start:spacepussy",
-    "build": "REACT_APP_NETWORK=spacepussy craco build",
+    "start:spacepussy1": "REACT_APP_NETWORK=spacepussy1 yarn start:base",
+    "start:bostrom": "REACT_APP_NETWORK=bostrom yarn start:base",
+    "start": "yarn start:bostrom",
+    "build": "REACT_APP_NETWORK=bostrom craco build",
     "test": "craco test"
   },
   "dependencies": {
